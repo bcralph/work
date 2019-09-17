@@ -8,7 +8,7 @@ TI BeagleBone Black Buildroot on Docker
     Login: brainchildralph / **********    
     Repository: brainchildralph/work:bbb    
 
-  - **Usage**    
+  - **Docker Container**    
     - Install docker on your Ubuntu system  
     - Because this is private repository, please key in login command first.   
       screenshot:       
@@ -31,4 +31,22 @@ TI BeagleBone Black Buildroot on Docker
       # ./start.sh
       # ./bash.sh         # This will make you enter the bash shell in interactive mode.     
       
+      ```    
+   - The shared folder between host and docker will be under the scripts folder called     
+     'share', and the related path in docker is '/share'. You can modify the 'run.sh' 
+     for such configurations. 
+
+  - **Buildroot**    
+    - Build SD Card image    
       ```
+      # cd /work/buildroot/build
+      # make 
+      ...
+      
+      ```    
+   - Wait for makeing image done... (It depends on your computing power...)    
+   - Image will locate as below. 
+  
+  
+  
+  
