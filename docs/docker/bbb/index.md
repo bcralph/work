@@ -44,7 +44,7 @@ TI BeagleBone Black Buildroot on Docker
       ...
       
       ```    
-   - Wait for makeing image done... (It depends on your computing power...)    
+   - Wait for makeing image done... (It depends on your computing power, and the download speed. )    
    - Image will locate as below. 
   
   
