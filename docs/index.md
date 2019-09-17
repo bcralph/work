@@ -1,4 +1,4 @@
-Brainchild Documentations    
+Documentations    
 ====
 **Editor: Ralph Wang**    
 **Date: 2019/0917**     
