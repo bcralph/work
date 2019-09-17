@@ -1,0 +1,16 @@
+Host bitbucket.org
+  HostName bitbucket.org
+  IdentityFile ~/.ssh/id_rsa
+#    ForwardX11Trusted yes
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
+  User git
+  LogLevel QUIET
+Host github.com
+  HostName github.com
+  IdentityFile ~/.ssh/id_rsa
+#    ForwardX11Trusted yes
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
+  User git
+  LogLevel QUIET
