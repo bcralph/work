@@ -1,11 +1,34 @@
-TI BeagleBone Black 
+TI BeagleBone Black Buildroot on Docker
 ====
 
-### Developing Environment on Docker
+### Docker
 ---
 
-  - Account    
+  - **Account**    
     Login: brainchildralph / **********    
     Repository: brainchildralph/work:bbb    
 
-
+  - **Usage**    
+    - Install docker on your Ubuntu system  
+    - Because this is private repository, please key in login command first.   
+      screenshot:       
+      ```
+      # docker login
+      Login with your Docker ID to push and pull images from Docker Hub. If you don't have 
+      a Docker ID, head over to https://hub.docker.com to create one.
+      Username: brainchildralph
+      Password:
+      WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+      Configure a credential helper to remove this warning. See
+      https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+      
+      Login Succeeded
+      ```
+    - After login, please download the files by [the link](https://github.com/bcralph/work/tree/master/Dockerfile/brainchildralph/bbb).     
+      The simple steps to create docker are list as below:   
+      ```
+      # ./run.sh
+      # ./start.sh
+      # ./bash.sh         # This will make you enter the bash shell in interactive mode.     
+      
+      ```
