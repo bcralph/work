@@ -3,9 +3,11 @@ TI CC1352r1 15.4g
 
 Roles
 ---
-- Host: PC or Embedded Linux
-- Collector node: CC1352R1
-- Sensor node: CC1352R1
+- Host: PC or Embedded Linux    
+  Connect to collector by 'ttyACM' and open TCP sockets for     
+  collecting data from sensor nodes.     
+- Collector node: CC1352R1    
+- Sensor node: CC1352R1    
 
 Environment
 ---   
