@@ -55,5 +55,10 @@ TI BeagleBone Black Buildroot on Docker
       - Application Recommended: balenaEtcher    
     - Linux: 
       - 'dd' command to write image into SD card.    
+      ```
+      dd if=sdcard.img of=/dev/sdx bs=1M 
+      # sdx is sdcard reader device, maybe different in your system.  
+      # after done, you can run 'sync' command for safe. 
+      ```
   
   
