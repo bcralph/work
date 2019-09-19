@@ -45,8 +45,12 @@ TI BeagleBone Black Buildroot on Docker
       
       ```    
    - Wait for makeing image done... (It depends on your computing power, and the download speed. )    
-   - Image will locate as below. 
-  
+   - Image will locate as below:     
+     - /work/buildroot/build/output/beaglebone/buildroot/output/images/sdcard.img      
+     ```
+     # ls /work/buildroot/build/output/beaglebone/buildroot/output/images/sdcard.img
+     ```
+  - **Image Installation**    
   
   
   
