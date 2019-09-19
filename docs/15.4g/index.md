@@ -11,8 +11,7 @@ Environment
 ---   
 - IDE
   - OS: Windows 7
-  - Installation: CCS 9.0.1, UNIFLASH
-  - [More Info](ide.md)
+  - Installation: CCS 9.0.1, UNIFLASH ([More Info](ide.md))    
 - Host
   - Ubuntu 16.04
   - TI Beaglebone Black (AM3358)
