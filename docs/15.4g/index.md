@@ -1,4 +1,4 @@
-TI CC1352R1 15.4g
+TI CC1352r1 15.4g
 ===  
 
 Roles
