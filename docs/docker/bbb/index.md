@@ -50,7 +50,10 @@ TI BeagleBone Black Buildroot on Docker
      ```
      # ls /work/buildroot/build/output/beaglebone/buildroot/output/images/sdcard.img
      ```
-  - **Image Installation**    
-  
+  - **Install Image**    
+    - Windows / macOS: 
+      - Application Recommended: balenaEtcher    
+    - Linux: 
+      - 'dd' command to write image into SD card.    
   
   
