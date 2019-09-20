@@ -24,13 +24,13 @@ CC1352r1
 - [Development Kit](http://www.ti.com/tool/LAUNCHXL-CC1352R1)    
 - IDE - [CCS - Code Composer Studio](http://software-dl.ti.com/ccs/esd/documents/ccs_downloads.html)     
 
-
-Adding New Sensor Support To Sub1GHz Sensor To Cloud Linux Gateway
----
-- [Wiki Link](http://processors.wiki.ti.com/index.php/Adding_New_Sensor_Support_To_Sub1GHz_Sensor_To_Cloud_Linux_Gateway)    
-  ***Read this first!!!***      
-- [TI 15.4-Stack Gateway Linux Software Development Kit](http://www.ti.com/tool/TI-15.4-STACK-GATEWAY-LINUX-SDK)     
-
+Resources
+---     
+- Adding New Sensor Support To Sub1GHz Sensor To Cloud Linux Gateway    
+  - [Wiki Link](http://processors.wiki.ti.com/index.php/Adding_New_Sensor_Support_To_Sub1GHz_Sensor_To_Cloud_Linux_Gateway)    
+    ***Read this first!!!***      
+  - [TI 15.4-Stack Gateway Linux Software Development Kit](http://www.ti.com/tool/TI-15.4-STACK-GATEWAY-LINUX-SDK)     
+- [TI 15.4-Stack - Linux Gateway Project Zero](http://dev.ti.com/tirex/explore/node?node=AIpEfnGDfOZ6k-P9SF11iA__pTTHBmu__LATEST)      
 
 
 
