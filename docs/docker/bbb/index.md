@@ -61,4 +61,17 @@ TI BeagleBone Black Buildroot on Docker
       # after done, you can run 'sync' command for safe. 
       ```
   
-  
+  - **Boot**     
+    - TI Beaglebone default boot sequence won't use SD card, so you have to press     
+      the button behind the SD card slot before you power on. Wait for 1 second     
+      after power on, release the button.     
+    - Console login: root (no password)    
+
+    - Adafruit 4 Pin Cable (PL2303)
+
+      | **Board**    |  **cable**  |
+      |:------------:|:-----------:|
+      | Pin 1 (GND)  | Black (GND) |
+      | Pin 4 (RX)   | Green (TX)  |
+      | Pin 5 (TX)   | White (RX)  |
+
