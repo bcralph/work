@@ -75,3 +75,32 @@ TI BeagleBone Black Buildroot on Docker
       | Pin 4 (RX)   | Green (TX)  |
       | Pin 5 (TX)   | White (RX)  |
 
+    - The boot up at first time will create partition for Docker and Node-RED.     
+      After done, the system will reboot again, and you can see the message on     
+      the console.     
+
+  - **Node-RED**  
+    - There are some scripts for set up Node-RED in Docker, please follow the steps    
+      listed below.    
+      
+      **Build Node-red Docker Image**
+      ```
+      $ cd /etc/test/node-red
+      $ ./build.sh
+      ```   
+      This will follow the 'Dockerfile' to build docker image.    
+          
+      *(Wait for a while for docker to build image...)*    
+          
+      **Create Docker Container**    
+      ```
+      $ ./run.sh 
+      ```    
+      This will run in interactive mode, so it will enter the terminal of the container.     
+      This step only run at the first time, and you just need to run 'start.sh' after this.     
+      **Start Continaer**
+      ```
+      $ ./start.sh
+      ```    
+      
+      
