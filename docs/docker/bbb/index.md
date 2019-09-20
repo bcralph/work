@@ -85,8 +85,8 @@ TI BeagleBone Black Buildroot on Docker
       
       **Build Node-red Docker Image**
       ```
-      $ cd /etc/test/node-red
-      $ ./build.sh
+      # cd /etc/test/node-red
+      # ./build.sh
       ```   
       This will follow the 'Dockerfile' to build docker image.    
           
@@ -94,7 +94,7 @@ TI BeagleBone Black Buildroot on Docker
           
       **Create Docker Container**    
       ```
-      $ ./run.sh 
+      # ./run.sh 
       ```    
       This will run in interactive mode, so it will enter the terminal of the container.     
       This step only run at the first time, and you just need to run 'start.sh' after this.     
@@ -102,5 +102,20 @@ TI BeagleBone Black Buildroot on Docker
       ```
       $ ./start.sh
       ```    
+    - Run Node-RED in Docker    
+      ```
+      root@node-red:/work/share/node-red# node-red -s ./node-red-settings.js -u /work/share/node-red
+      ```    
+      TI Beaglebone Black DHCP is enabled, please connect you Ethernet port to intranet.   
+      If you check your gateway or server, and you can access Node-RED by browser with 
+      the link example as below.     
+      **Notes:** DDNS will be a option for user to access the device, otherwise, need     
+      other machanism, i.e. UPnP or http scan, etc.     
+      Link ex:    
+      ```
+      http://192.168.2.165:1880
+      ```    
       
-      
+
+
+
