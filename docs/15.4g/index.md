@@ -29,8 +29,10 @@ Resources
 - Adding New Sensor Support To Sub1GHz Sensor To Cloud Linux Gateway    
   - [Wiki Link](http://processors.wiki.ti.com/index.php/Adding_New_Sensor_Support_To_Sub1GHz_Sensor_To_Cloud_Linux_Gateway)    
     ***Read this first!!!***      
-  - [TI 15.4-Stack Gateway Linux Software Development Kit](http://www.ti.com/tool/TI-15.4-STACK-GATEWAY-LINUX-SDK)     
 - [TI 15.4-Stack - Linux Gateway Project Zero](http://dev.ti.com/tirex/explore/node?node=AIpEfnGDfOZ6k-P9SF11iA__pTTHBmu__LATEST)      
+  - [Linux Host SDK Git](git://git.ti.com/apps/tidep0084.git)     
+  - [TI 15.4-Stack Gateway Linux Software Development Kit](http://www.ti.com/tool/TI-15.4-STACK-GATEWAY-LINUX-SDK)     
+  
 
 
 
