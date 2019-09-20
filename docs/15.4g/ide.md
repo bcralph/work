@@ -22,3 +22,5 @@ UNIFlash
 ---
   Image Burner    
   - Installation ( [Link](http://www.ti.com/tool/UNIFLASH) )
+  - [Windows 32bit issue](http://e2e.ti.com/support/microcontrollers/c2000/f/171/p/840332/3107088)    
+  
