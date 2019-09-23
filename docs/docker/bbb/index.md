@@ -118,6 +118,7 @@ TI BeagleBone Black Buildroot on Docker
       Login page    
       
       ![Node-RED Login](https://raw.githubusercontent.com/bcralph/work/master/docs/docker/bbb/node-red-login.png){:width="100px"}    
+      - Login: brainchild/***************     
 
       
 
